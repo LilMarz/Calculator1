@@ -2,16 +2,16 @@
 #Imagine being Aarosh, or Suhrid or Ekush (IAN)))))))))))))))))))))))))))))))))
 #Here is the code that I need to put (btw im doing the division part and the while loop)
 def division():
-    bruh = int(input("INSERT ANSWER HERE FOR THE NUMERO UNO "))
-    bruh_2 = int(input("INSERT ANSWER HERE FOR THE NUMERO DOS "))
+    bruh = int(input("INSERT NUMBER HERE FOR THE NUMERO UNO "))
+    bruh_2 = int(input("INSERT NUMBER HERE FOR THE NUMERO DOS "))
     if bruh_2 == 0 or bruh_2 < 0:
-        bruh_2 = int(input("INSERT ANSWER HERE FOR THE NUMERO DOS AGAIN"))
+        bruh_2 = int(input("INSERT NUMBER HERE FOR THE NUMERO DOS AGAIN"))
     bruh_ans = bruh / bruh_2
     print("Your bruh moment be like... ", bruh_ans)
 
 def float_division():
-    bruh = float("INSERT ANSWER HERE FOR THE NUMERO UNO ")
-    bruh_2 = float("INSERT ANSWER HERE FOR THE NUMERO DOS ")
+    bruh = float("INSERT NUMBER HERE FOR THE NUMERO UNO ")
+    bruh_2 = float("INSERT NUMBER HERE FOR THE NUMERO DOS ")
     if bruh_2 == 0 or bruh_2 < 0:
         bruh_2 = int(input("INSERT ANSWER HERE FOR THE NUMERO DOS AGAIN"))
     bruh_ans = bruh / bruh_2
