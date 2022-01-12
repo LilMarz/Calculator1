@@ -1,3 +1,22 @@
+
+#I like to steal your cookies then dip them in the soda dispenser
+#Imagine being a bunyan plus going to a school with 21 kids plus having no arm nor leg hair and not being in summa
+#Imagine not having leg hair and having only indian friends and being hot
+#Imagine not being in summa and using discord during school and being a purid bacha
+
+def addition():
+    num = int(input("Give me number pls"))
+    num2 = int(input("Give me another number bruh bing chilling sussy boy"))
+    numans = num + num2
+    return numans
+
+
+print ("ur hot mama cita answer is", addition())
+
+
+
+
+
 #It will calculate few calculations lol
 #Imagine being Aarosh, or Suhrid or Ekush (IAN)))))))))))))))))))))))))))))))))
 #Here is the code that I need to put (btw im doing the division part and the while loop)
@@ -48,3 +67,4 @@ while True:
             float_division()
         else:
             break
+
