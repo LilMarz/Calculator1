@@ -19,6 +19,21 @@ print ("ur hot mama cita answer is", addition())
 
 #It will calculate few calculations lol
 
+#hello yeet
+#Multiplying code
+
+def multiply():
+    print("What is your first number?")
+    num1 = int(input())
+    print("What is your second number?")
+    num2 = int(input())
+    answer = num1 * num2
+    return answer
+
+print("Your final answer is", multiply())
+
+
+
 #this is from 21 life goes oin and oin and oin
 def subtraction():
     sub1 = int(input("What is your first numberrrr"))
@@ -78,4 +93,5 @@ while True:
             float_division()
         else:
             break
+
 
