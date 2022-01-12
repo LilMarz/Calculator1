@@ -6,5 +6,6 @@ def subtraction():
     if sub2 < 0:
         sub2 = int(input("Put you second numberrr again hee hee hee haw"))
     sub_answerr = sub1 - sub2
-    print("your answer is", sub_answerr)
+    return sub_answerr
+print("your answer is", subtraction())
 
