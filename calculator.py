@@ -8,14 +8,16 @@ def addition():
     num = int(input("Give me number pls"))
     num2 = int(input("Give me another number bruh bing chilling sussy boy"))
     numans = num + num2
-    return numans
+    print("ur hot mama cita answer is", numans)
 
-
-print ("ur hot mama cita answer is", addition())
-
-
-
-
+#this is from 21 life goes oin and oin and oin
+def subtraction():
+    sub1 = int(input("What is your first numberrrr"))
+    sub2 = int(input("what is your second numberrrrrrrr"))
+    if sub2 < 0:
+        sub2 = int(input("Put you second numberrr again hee hee hee haw"))
+    sub_answerr = sub1 - sub2
+    print("your answer is", sub_answerr)
 
 #It will calculate few calculations lol
 
@@ -28,21 +30,10 @@ def multiply():
     print("What is your second number?")
     num2 = int(input())
     answer = num1 * num2
-    return answer
-
-print("Your final answer is", multiply())
+    print("Your final answer is", answer)
 
 
 
-#this is from 21 life goes oin and oin and oin
-def subtraction():
-    sub1 = int(input("What is your first numberrrr"))
-    sub2 = int(input("what is your second numberrrrrrrr"))
-    if sub2 < 0:
-        sub2 = int(input("Put you second numberrr again hee hee hee haw"))
-    sub_answerr = sub1 - sub2
-    return sub_answerr
-print("your answer is", subtraction())
 
 #Imagine being Aarosh, or Suhrid or Ekush (IAN)))))))))))))))))))))))))))))))))
 #Here is the code that I need to put (btw im doing the division part and the while loop)
@@ -87,10 +78,18 @@ while True:
         break
     elif bruh_cal == "yes":
         bruh_operator = input("Which bruh moment operator would u like to use")
-        if bruh_operator == "div":
+        if bruh_operator == "add":
+            addition()
+        elif bruh_operator == "sub":
+            subtraction()
+        elif bruh_operator == "mul":
+            multiply()
+        elif bruh_operator == "div":
             division()
         elif bruh_operator == "float_div":
             float_division()
+        elif bruh_operator == "age_grade":
+            age_grade()
         else:
             break
 
